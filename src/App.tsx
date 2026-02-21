@@ -4,6 +4,7 @@ import Dashboard from '@/pages/Dashboard'
 import Knowledge from '@/pages/Knowledge'
 import Analytics from '@/pages/Analytics'
 import Settings from '@/pages/Settings'
+import Portfolio from '@/pages/Portfolio'
 import NotFound from '@/pages/NotFound'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="analytics" element={<Analytics />} />
         <Route path="settings" element={<Settings />} />
       </Route>
+      <Route path="portfolio" element={<Portfolio />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
